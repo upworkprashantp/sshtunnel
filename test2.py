@@ -18,5 +18,5 @@ with SSHClient() as ssh:
                 username='CTRUENORTH',
                 password='Bank@123',
                 )
-    ssh.exec_command('-d')
+    print(ssh.exec_command('-d'))
 server.stop()
